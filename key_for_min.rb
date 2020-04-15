@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
     return nil;
   end
   lowest = Infinity;
-  name_hash.each do |key, value|
+  name_hash.each do |item, amount|
     if value < lowest
       lowest = value;
       key;
