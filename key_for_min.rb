@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   if name_hash == {}
     return nil;
   end
-  lowest = float.Infinity;
+  lowest = Float::infinity;
   name_hash.each do |item, amount|
     if amount < lowest
       lowest = amount;
